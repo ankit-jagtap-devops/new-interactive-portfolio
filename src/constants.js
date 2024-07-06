@@ -5,7 +5,7 @@ export const services = [
         icon: 'https://csgeeek.github.io/web.png',
     },
     {
-        title: "Software Engineer",
+        title: "DevOps Engineer",
         icon: 'https://csgeeek.github.io/web.png',
     },
     {
@@ -14,37 +14,39 @@ export const services = [
     },
 ];
 
-export const name = 'Nithin';
+export const name = 'Ankit';
 
 export const experiences = [
     {
-        'company': 'Inncircles Technologies',
-        'role': 'Product Developer',
-        'duration': 'April 2023 - Present',
-        'logo': 'https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/e5gz1yggdy8sc1umna3e',
+        'company': 'Kone Elevators Pvt. Ltd.',
+        'role': 'Cloud Platform DevOps Engineer',
+        'duration': 'November 2023 - Present',
+        'logo': 'https://upload.wikimedia.org/wikipedia/commons/5/55/KONE_logo_2023.png',
         'points': [
-            'Involved in dynamic contributions to web and mobile📱 development projects, actively influencing and improving project outcomes.',
-            'Developed multiple shared components to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security for the company’s product to provide role-based access control ⚙️.'
+            'Worked on GitLab Administration, and provided GitLab runners, runner support, and Pipeline Support to multiple cross-application teams in Kone.',
+            'Created multiple GitLab pipelines (i.e. .gitlab-ci.yml files) with defined branching strategies for multiple GitLab projects.',
+            'Managed multiple Golden Docker images in Private ECR, with a weekly patching mechanism to have the latest security patch. Images can be pulled privately in 200+ AWS accounts.',
+            'Scheduled Poll SCM job Continuous Integration of code from Developers twice a day.',
+            'Integrated SonarQube, Coverity, Junit, and Blackduck into Gitlab pipelines with the help of the Security team.'
         ],
-        'url': 'https://inncircles.com/#home',
+        'url': 'https://www.kone.com/en/',
     },
     {
-        'company': 'AT & T',
-        'role': 'Technical Intern',
-        'duration': 'Jan 2023 - March 2023',
-        'logo': 'https://www.att.com/ecms/dam/att/consumer/global/logos/att_globe_500x500.jpg',
+        'company': 'Rego Digital Solutions Pvt. Ltd.',
+        'role': 'DevOps Engineer',
+        'duration': 'June 2021 - October 2023',
+        'logo': 'https://regoindia.com/logo/REGO%20Digital%20Solutions%20Logo.jpg',
         'points': [
-            'Gained experience with Git version control contributing to the development and maintenance of code repositories.',
-            'Worked on the application dashboard, making it more user-friendly and improving its overall functionality📱.'
+            'Implemented AWS services from the console and wrote terraform code to create VPC, Subnets, EC2, S3, etc.',
+            'Created a simple Jenkins pipeline to build Docker images using Dockerfiles in the Dev Environment.',
+            'Worked in the Agile methodology and used the CI/CD approach for automation in the Integration and Deployment of code.'
         ],
-        'url': 'https://www.att.com/',
+        'url': 'https://regoindia.com/',
     },
 ]
 
 
 
-export const EMAIL_JS_SERVICE_ID = 'service_90wb9t5';
-export const EMAIL_JS_TEMPLATE_ID = 'template_8l87rew';
-export const EMAIL_JS_PUBLIC_KEY = 'pHPjc9RGGkF66r86N';
+export const EMAIL_JS_SERVICE_ID = 'service_25igc4w';
+export const EMAIL_JS_TEMPLATE_ID = 'template_7p09ekl';
+export const EMAIL_JS_PUBLIC_KEY = 'nEOyrW59zwT00cQGX';

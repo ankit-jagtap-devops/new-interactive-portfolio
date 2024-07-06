@@ -7,10 +7,10 @@ import Footer from './Footer'
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            {title=='Snap Shot' && <a href="#">
+            {title=='Infra Automation' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="" />
             </a>}
-            {title=='Co People' && <a href="#">
+            {title=='Complete CICD' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
@@ -60,18 +60,18 @@ const Projects = () => {
 
 export const project = [
     {
-        title:'Co People',
-        description:'Co People is a dynamic web application I crafted using React, Node JS and React. This project is a modern and engaging social platform that allows users to connect, share content and interact seamlessly.',
+        title:'Complete CICD',
+        description:'This Jenkins pipeline script builds, tests, and deploys an application using Maven, SonarQube, Docker, and Kubernetes.',
         image: {vpn},
-        git:'https://github.com/nithingooud/CoPeople',
-        technologies:['MongoDb' ,'ReactJS' , 'NodeJS']
+        git:'https://github.com/ankit-jagtap-devops/eks-deployment-with-cicd',
+        technologies:['Jenkins' ,'GitHub Actions' , 'Maven', 'Docker', 'Kubernetes']
     },
     {
-        title:'Snap Shot',
-        description:'SnapShot is a stunning portfolio that I exclusively designed using React JS and tailwind CSS.This Project serves as a representation of a photographer’s work, highlighting their portfolio and services.',
+        title:'Infra Automation',
+        description:'This project automates Jenkins infrastructure provisioning with Terraform, enabling consistent and repeatable setup.',
         image: {copeople},
-        git:"https://github.com/nithingooud/vpn_studios",
-        technologies:[ 'React JS', 'tailwind CSS']
+        git:"https://github.com/ankit-jagtap-devops/terraform-vpc-jenkins-DB",
+        technologies:[ 'Terraform', 'ShellScript', 'IaC']
     }
 ]
 
