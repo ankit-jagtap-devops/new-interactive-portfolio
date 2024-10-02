@@ -37,7 +37,7 @@ const About = () => {
           ✍️ Outside of coding, I enjoy mobile photography 📸 to capture moments and playing Call of Duty for relaxation and strategic challenges.</p>
 
           <ButtonLink
-            url='https://drive.google.com/file/d/1Ps51KdXBimtXypB-2H8Loa90oWL8vmBA/view?usp=sharing'
+            url='https://drive.google.com/file/d/1-K0LvItM9j9K_i-Y0Hxhhfy1ykZss4Qd/view?usp=sharing'
             text='View Resume →'
             padding={`p-3`}
           />

@@ -1,0 +1,21 @@
+# Default values for the portfolio app
+
+# Docker image information
+image:
+  repository: "233459467455.dkr.ecr.ap-south-1.amazonaws.com/my-portfolio"
+  tag: "v1"
+  pullPolicy: IfNotPresent
+
+# # DockerHub credentials
+# dockerConfigJson: ""
+
+# Number of replicas for the deployment
+replicaCount: 3
+
+# Secret name for DockerHub credentials
+# imagePullSecretName: "dockerhub-secret"
+
+# Port configuration
+service:
+  port: 80
+  targetPort: 80
